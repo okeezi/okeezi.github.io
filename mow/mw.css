@@ -1,0 +1,47 @@
+body{
+  background-color: lightblue;
+}
+.ro{
+  height: 600px;
+
+  padding-left: 200px;
+
+}
+.col{
+  border: 2px solid blue;
+  width: 40%;
+  padding: 0%;
+margin-top: 12%;
+float: left;
+  text-align: center;
+  margin-left: 1%;
+
+
+}
+.col img{
+  width: 90%;
+  height: 10%;
+}
+
+
+.md1box{
+  background-color: lightgrey;
+  position: fixed;
+  top: 0;
+  bottom: 0;
+  opacity: 0;
+  pointer-events: none;
+  align-items: center;
+  justify-content: center;
+}
+
+
+#one:target{
+  opacity: 1;
+  pointer-events: all;
+}
+
+#two:target{
+  opacity: 1;
+  pointer-events: all;
+}
