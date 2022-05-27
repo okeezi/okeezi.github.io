@@ -1,0 +1,106 @@
+html{
+    padding: 0px;
+}
+
+body{
+    background-color: #7ed4bf;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+header h2{
+    text-align: center;
+}
+
+header small {
+    text-align: center;
+    font-size: 12px;
+    padding: 0px !important;
+    margin-bottom: 8px;
+    display: block;
+}
+
+.container{
+    background-color: rgba(253, 249, 191, 0.719);
+    width: 700px;
+    margin: auto;
+    padding: 20px;
+    border-radius: 20px;
+}
+
+table{
+    width: 100%;
+}
+
+
+td a {
+    float: right;
+    background-color: rgb(255, 156, 121);
+    padding: 10px;
+    margin-right: 10px;
+    cursor: pointer;
+    border-radius: 10px;
+    color: #000;
+    text-decoration: none;
+}
+
+.score{
+    padding: 10px;
+    background-color: rgb(255, 156, 121);
+    
+}
+
+.panel{
+    max-width: 500px;
+    margin: auto;
+    border-radius: 20px;
+    text-align: center;
+    padding: 20px;
+    background-color: rgb(156, 136, 92);
+}
+
+.input{
+    padding: 10px;
+    border-radius: 10px;
+    text-decoration: none;
+    background-color: lightgray;
+    text-align: center;
+    border: none;
+    margin-bottom: 8px;
+}
+
+.btn{
+    width: 100px;
+    padding: 8px;
+    border-radius: 10px;
+    border: none;
+    color: white;
+    background-color: rgba(172, 255, 47, 0.507);
+}
+
+.history{
+    max-width: 300px;
+    background-color: aquamarine;
+    margin: auto;
+    border-radius: 20px;
+    margin-top: 20px;
+    padding: 10px;
+    
+}
+
+.panel-success{
+    max-width: 500px;
+    margin: auto;
+    text-align: center;
+    padding: 30px;
+    border-radius: 30px;
+    background-color: rgba(53, 189, 159, 0.733);
+}
+
+.play{
+    width: 100px;
+    background-color: rgb(57, 175, 57);
+    color: #fff;
+    border: none;
+    padding: 10px;
+    border-radius: 10px;
+}
